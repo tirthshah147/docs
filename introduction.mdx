@@ -1,36 +1,92 @@
 ---
-title: Introduction
-description: 'Welcome to the home of your new documentation'
+title: "Introduction"
 ---
 
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.svg"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.svg"
-  alt="Hero Dark"
-/>
+<Note>
+  1. Callout Content
+
+  2.
+</Note>
+
+<Tip>
+  Callout Content
+</Tip>
+
+<Warning>
+  Callout Content
+</Warning>
+
+<Accordion title="New Accordion" description="ddddd" defaultOpen={false} icon="pencil">
+  ddddd
+
+  # dd
+</Accordion>
+
+<AccordionGroup>
+  <Accordion title="New Accordion" defaultOpen="false" />
+
+  <Accordion title="New Accordion" defaultOpen="false" />
+</AccordionGroup>
+
+<Card title="New Card" icon="bolt">
+  Insert content here
+</Card>
+
+<CardGroup cols="2">
+  <Card title="Card" icon="sparkles" />
+
+  <Card title="Card" icon="sparkles" />
+</CardGroup>
+
+<CodeGroup>
+  ```javascript Untitled
+  ```
+</CodeGroup>
+
+<CodeGroup>
+  ```javascript helloWorld.js
+  console.log("Hello World");
+  ```
+
+  ```
+  console.log("Hello World");
+  ```
+</CodeGroup>
+
+<Tabs>
+  <Tab title="Tab 1" />
+
+  <Tab title="Tab 2">
+    ffffff
+  </Tab>
+</Tabs>
+
+<Steps>
+  <Step title="Step 1">
+    dfdffd
+  </Step>
+
+  <Step title="Step 2" />
+</Steps>
+
+<Frame caption="dkfdfkdjfdf">
+  ,fmdfdmd,fdmf,dmf,dm,fmd,fmd,d,fm,dm,f
+</Frame>
+
+<Update label="12/16/2024" description="version 1.0">
+  Add your changelog here
+</Update>
 
 ## Setting up
 
 The first step to world-class documentation is setting up your editing environments.
 
 <CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
+  <Card title="Edit Your Docs" icon="pen-to-square" href="https://mintlify.com/docs/quickstart">
     Get your docs set up locally for easy development
   </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
+
+  <Card title="Preview Changes" icon="image" href="https://mintlify.com/docs/development">
     Preview your changes before you push to make sure they're perfect
   </Card>
 </CardGroup>
@@ -40,32 +96,19 @@ The first step to world-class documentation is setting up your editing environme
 Update your docs to your brand and add valuable content for the best user conversion.
 
 <CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
+  <Card title="Customize Style" icon="palette" href="https://mintlify.com/docs/settings/global">
     Customize your docs to your company's colors and brands
   </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
+
+  <Card title="Reference APIs" icon="code" href="https://mintlify.com/docs/api-playground/openapi">
     Automatically generate endpoints from an OpenAPI spec
   </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/components/accordion"
-  >
+
+  <Card title="Add Components" icon="screwdriver-wrench" href="https://mintlify.com/docs/components/accordion">
     Build interactive features and designs to guide your users
   </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/customers"
-  >
+
+  <Card title="Get Inspiration" icon="stars" href="https://mintlify.com/customers">
     Check out our showcase of our favorite documentation
   </Card>
 </CardGroup>
